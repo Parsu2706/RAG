@@ -1,0 +1,49 @@
+# Environment / secrets
+.env
+.env.local
+.env.production
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+*.egg
+venv/
+.venv/
+env/
+ENV/
+build/
+dist/
+.env
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+
+# Testing / linting caches
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+htmlcov/
+.tox/
+
+# Data / model artifacts (usually large, regenerate instead of committing)
+data/
+*.faiss
+*.index
+
+# Databases
+*.db
+test.db
+prod.db
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Docker
+docker-compose.override.yml
+
+node_modules/
